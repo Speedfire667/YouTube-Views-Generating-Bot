@@ -7,8 +7,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 
-URL = str(input('Enter the Video URL >> '))
-DRIVERS = int(input('Number of Drivers(Windows) >> '))
+URL = str(input('https://youtu.be/7koPZ165-IM?si=gaPuYQNE_-nVXSiW'))
+DRIVERS = int(input('1'))
 driver = []
 BreakRate = 10 #sec
 PATH = 'C:\Program Files (x86)\chromedriver.exe' #path of chromedriver
